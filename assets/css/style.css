@@ -45,6 +45,7 @@
     background-color: #a3c9c6;
     position: relative;
     border-radius: 15px;
+    justify-content: center;
 }
 
 .card img {
