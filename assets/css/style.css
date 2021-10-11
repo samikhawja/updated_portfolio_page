@@ -57,3 +57,15 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     opacity: 100%;
 }
+
+footer h2 {
+    text-align: center;
+}
+
+footer ul li{
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+    margin: 6%;
+    width: 10em;
+}
