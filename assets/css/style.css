@@ -60,6 +60,7 @@ body {
 .card img {
     border-radius: 15px;
     opacity: 60%;
+    height: 50%;
 }
   
 .card img:hover {
@@ -106,7 +107,7 @@ a:link {
         top: 10%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 24px;
+        font-size: 16px;
         opacity: 75%;
         font-family: "OCR A Std", monospace;
         color: #1b1b1b;
