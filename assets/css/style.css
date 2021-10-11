@@ -11,7 +11,11 @@ body {
     opacity: 75%;
     font-family: "OCR A Std", monospace;
     color: #1b1b1b;
-} 
+}
+
+.animate__animated.animate__flash {
+    --animate-duration: 2s;
+}
 
 .about_me {
     margin-bottom: 20px;
@@ -104,7 +108,7 @@ a:link {
 @media screen and (max-width: 768px) {
     .centered {
         position: absolute;
-        top: 10%;
+        top: 12.25%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 24px;
@@ -126,6 +130,12 @@ a:link {
         line-height: normal;
         margin-top: -5%;
         margin-left: -10%;
+    }
+    .card {
+        height: 8rem;
+    }
+    .card img {
+        height: 75px;
     }
     .card-body {
         font-size: small;
