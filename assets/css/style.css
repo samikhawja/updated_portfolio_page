@@ -127,6 +127,9 @@ a:link {
         margin-top: -5%;
         margin-left: -10%;
     }
+    .card-body {
+        font-size: small;
+    }
     footer {
         font-size: 15px;
     }
