@@ -86,4 +86,47 @@ footer ul li{
 
 a:link {
     text-decoration: none;
-  }
+}
+
+/* @media screen and (max-width: 992px) {
+    header {
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        
+    }
+} */
+
+@media screen and (max-width: 576px) {
+    .centered {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        opacity: 75%;
+        font-family: "OCR A Std", monospace;
+        color: #1b1b1b;
+    } 
+    .about_me h2 {
+        margin-top: -15%;
+    }
+    .about_me img {
+        margin-top: -15%;
+        margin-right: -10%;
+        width: 35%;
+        height: auto;
+    }
+    .about_me p {
+        font-size: small;
+        line-height: normal;
+        margin-top: -5%;
+        margin-left: -10%;
+    }
+    footer {
+        font-size: 15px;
+    }
+}
