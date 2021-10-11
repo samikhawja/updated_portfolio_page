@@ -1,3 +1,7 @@
+body {
+    background-color: #b4d3e9;
+}
+
 .centered {
     position: absolute;
     top: 17.5%;
@@ -58,14 +62,20 @@
     opacity: 100%;
 }
 
+footer {
+    padding: 50px;
+}
+
 footer h2 {
     text-align: center;
+    line-height: 50px;
 }
 
 footer ul li{
     display: inline;
     list-style-type: none;
     padding: 0;
-    margin: 6%;
+    margin: 7%;
     width: 10em;
+    line-height: 50px;
 }
