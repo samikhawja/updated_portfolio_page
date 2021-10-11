@@ -100,7 +100,7 @@ a:link {
     }
 } */
 
-@media screen and (max-width: 768px) {
+@media only screen and (-webkit-min-device-pixel-ratio: 3) 
     .centered {
         position: absolute;
         top: 10%;
