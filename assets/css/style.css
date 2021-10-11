@@ -65,6 +65,20 @@ body {
     width: 80%;
 }
 
+.close {
+    color: rgb(128, 203, 233);
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(35, 190, 236);
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .chapter {
     text-align: center;
     line-height: 50px;
