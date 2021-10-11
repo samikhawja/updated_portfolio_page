@@ -20,7 +20,7 @@ body {
 .about_me {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 350px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0C6170;
     color: #ffffff;
@@ -29,9 +29,9 @@ body {
 .about_me img {
     float: right;
     margin-left: 25px;
-    width: 15%;
+    width: 17.5%;
     height: auto;
-    margin-top: -2.5%;
+    margin-top: -1.85%;
 }
 
 .about_me h2 {
@@ -44,6 +44,25 @@ body {
     font-size: 24px;
     font-weight: lighter;
     line-height: 30px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: #5FA8D3;
+    margin: 15% auto;
+    padding: 20px;
+    border: 3px solid #CAE9FF;
+    width: 80%;
 }
 
 .chapter {
@@ -130,6 +149,12 @@ a:link {
         line-height: normal;
         margin-top: -5%;
         margin-left: -10%;
+    }
+    .modal {
+        margin-top: 25%;
+    }
+    .modal-content p {
+        margin: 15% auto;
     }
     .card {
         height: 8rem;
