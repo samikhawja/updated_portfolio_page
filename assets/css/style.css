@@ -42,19 +42,27 @@ body {
     line-height: 30px;
 }
 
+.chapter {
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 38px;
+    color: grey;
+}
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     background-color: #86b4c9;
-    opacity: 60%;
     border-radius: 15px;
 }
 
 .card img {
     border-radius: 15px;
+    opacity: 60%;
 }
   
-.card:hover {
+.card img:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     opacity: 100%;
 }
@@ -65,11 +73,6 @@ body {
 
 footer {
     padding: 50px;
-}
-
-footer h2 {
-    text-align: center;
-    line-height: 50px;
 }
 
 footer ul li{
