@@ -1,0 +1,10 @@
+.centered {
+    position: absolute;
+    top: 17.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 64px;
+    opacity: 75%;
+    font-family: "OCR A Std", monospace;
+    color: #1b1b1b;
+} 
