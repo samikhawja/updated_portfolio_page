@@ -1,0 +1,20 @@
+{
+  "name": "updated_portfolio_page",
+  "version": "1.0.0",
+  "description": "<!-- TABLE OF CONTENTS --> <details open=\"open\">   <summary>Table of Contents</summary>   <ol>     <li>       <a href=\"#about-the-project\">About The Project</a>       <ul>         <li><a href=\"#built-with\">Built With</a></li>       </ul>     </li>     <li>       <a href=\"#getting-started\">Getting Started</a>     </li>     <li><a href=\"#code-snippet\">Code-Snippet</a></li>     <li><a href=\"#license\">License</a></li>     <li><a href=\"#contact\">Contact</a></li>     <li><a href=\"#acknowledgements\">Acknowledgements</a></li>   </ol> </details>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samikhawja/updated_portfolio_page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samikhawja/updated_portfolio_page/issues"
+  },
+  "homepage": "https://github.com/samikhawja/updated_portfolio_page#readme"
+}
