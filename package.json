@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/samikhawja/updated_portfolio_page/issues"
   },
-  "homepage": "https://github.com/samikhawja/updated_portfolio_page#readme"
+  "homepage": "https://github.com/samikhawja/updated_portfolio_page#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
